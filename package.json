@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "\"Webpack2\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-p": "rimraf ./dist/app.bundle.js && webpack -p",
+    "dev" : "webpack-dev-server"
+
+  },
+  "author": "G Cumming",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^2.5.4",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.12"
+  }
+}
